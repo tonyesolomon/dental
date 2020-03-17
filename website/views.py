@@ -14,7 +14,7 @@ def contact(request):
 
         # Send mail
         send_mail(
-        	'Inquiry by:' + message_name,
+        	'Inquiry by' + message_name,
         	message,
         	message_email,
         	['slink.sagbe@gmail.com'],

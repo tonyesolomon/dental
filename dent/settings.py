@@ -114,18 +114,18 @@ STATICFILES_DIRS = [
 ]
 
 
-# EMAIL_HOST = 'smtp.gmail.com'
-# EMAIL_PORT = 587
-# EMAIL_HOST_USER = 'slink.sagbe@gmail.com'
-# EMAIL_HOST_PASSWORD = 'pretesagbe'
-# EMAIL_USE_TLS = True
-# EMAIL_USE_SSL = False
-
-EMAIL_HOST = 'localhost'
-EMAIL_PORT = 1025
-EMAIL_HOST_USER = ''
-EMAIL_HOST_PASSWORD = ''
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'slink.sagbe@gmail.com'
+EMAIL_HOST_PASSWORD = 'pretesagbe'
 EMAIL_USE_TLS = True
+EMAIL_USE_SSL = False
+
+# EMAIL_HOST = 'localhost'
+# EMAIL_PORT = 1025
+# EMAIL_HOST_USER = ''
+# EMAIL_HOST_PASSWORD = ''
+# EMAIL_USE_TLS = True
 
 
 
